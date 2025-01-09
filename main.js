@@ -2,9 +2,9 @@ setTimeout(function () {
   var typed = new Typed("#bkrinfotext", {
     strings: [
       "Frontend Developer",
-      "Mobile Developer",
+      "Mobil Developer",
       "Web Developer",
-      "Varan1",
+      "Tein Teknoloji",
     ],
     typeSpeed: 90,
     backSpeed: 50,

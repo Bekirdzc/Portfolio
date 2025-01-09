@@ -6,6 +6,7 @@
 }
 body {
   color: #ededee;
+  background: #001e21;
 }
 .header {
   position: fixed;
@@ -36,9 +37,9 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: 0.3s;
+  transition: .3s;
   opacity: 0;
-  animation: slideTop 0.5s ease forwards;
+  animation: slideTop .5s ease forwards;
   animation-delay: calc(0.2s * var(--i));
 }
 .navbar a:hover {
@@ -129,6 +130,35 @@ body {
 .btn-box:hover {
   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 38px cyan;
 }
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.about-text h2{
+ font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
