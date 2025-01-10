@@ -251,12 +251,15 @@ section{
   text-underline-offset: 10px;
   text-decoration-thickness: 5px;
   margin-bottom: 50px;
+  
 }
 .bar{
   font-size: 23px;
+  
 }
 .Technical-bars .bar {
   margin-top: 40px 0;
+
 }
 .Technical-bars .bar:first-child {
   margin-top: 0;
